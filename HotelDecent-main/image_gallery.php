@@ -129,48 +129,48 @@
 		<h2 class="r_room">IMAGE GALLERY</h2><br>
 		<div class="row">
   			<div class="column">
-    			<img src="images/1.jpg" alt="Snow" style="width:100%">
+    			<img src="rooms/4.png" alt="Snow" style="width:100%">
   			</div>
   			<div class="column">
-    			<img src="images/2.jpg" alt="Forest" style="width:100%">
+    			<img src="rooms/5.png" alt="Forest" style="width:100%">
   			</div>
   			<div class="column">
-    			<img src="images/3.jpg" alt="Mountains" style="width:100%">
-  			</div>
-		</div><br>
-		<div class="row">
-  			<div class="column">
-    			<img src="images/A1.jpg" alt="Snow" style="width:100%">
-  			</div>
-  			<div class="column">
-    			<img src="images/A2.jpg" alt="Forest" style="width:100%">
-  			</div>
-  			<div class="column">
-    			<img src="images/A3.jpg" alt="Mountains" style="width:100%">
+    			<img src="rooms/1.jpg" alt="Mountains" style="width:100%">
   			</div>
 		</div><br>
 		<div class="row">
   			<div class="column">
-    			<img src="images/A4.jpg" alt="Snow" style="width:100%">
+    			<img src="rooms/6.png" alt="Snow" style="width:100%">
   			</div>
   			<div class="column">
-    			<img src="images/A5.jpg" alt="Forest" style="width:100%">
+    			<img src="rooms/7.png" alt="Forest" style="width:100%">
   			</div>
   			<div class="column">
-    			<img src="images/A6.jpg" alt="Mountains" style="width:100%">
+    			<img src="rooms/8.png" alt="Mountains" style="width:100%">
+  			</div>
+		</div><br>
+		<div class="row">
+  			<div class="column">
+    			<img src="rooms/2.png" alt="Snow" style="width:100%">
+  			</div>
+  			<div class="column">
+    			<img src="rooms/3.png" alt="Forest" style="width:100%">
+  			</div>
+  			<div class="column">
+    			<img src="rooms/7.png" alt="Mountains" style="width:100%">
   			</div>
 		</div><br><br><br>
 		<h2 id="rooms_and_rates" class="r_room">OUR ROOMS</h2>
 		<div class="basic_box">
 			<div class="row">
   				<div class="column">
-    				<img src="images/1.jpg" alt="Snow" style="width:100%">
+    				<img src="rooms/1.jpg" alt="Snow" style="width:100%">
   				</div>
   				<div class="column">
-    				<img src="images/2.jpg" alt="Forest" style="width:100%">
+    				<img src="rooms/2.png" alt="Forest" style="width:100%">
   				</div>
   				<div class="column">
-    				<img src="images/3.jpg" alt="Mountains" style="width:100%">
+    				<img src="rooms/3.png" alt="Mountains" style="width:100%">
   				</div>
 			</div>
 			<div class="row">
@@ -188,7 +188,7 @@
 		<div id="contact" class="footer">
 			<hr>
 			<h2 class="foot-text">Contact Us!</h2>
-			<h3 class="foot-text">Email us at aska18cs@gmail.com</h3><br>
-				<h3 class="foot-text">or adsu18cs@gmail.com</h3><br>
+			<h3 class="foot-text">Email us at xxxxxx@gmail.com</h3><br>
+				<h3 class="foot-text">or xxxxxxxx@gmail.com</h3><br>
 		</div>
 	</body>

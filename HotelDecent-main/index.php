@@ -4,6 +4,7 @@
 		<title>
 			HOTEL DECENT
 		</title>
+		<link rel="stylesheet" href="vendors/css/swiper-bundle.min.css">
 	</head>
 	<style>
 		body {
@@ -227,6 +228,29 @@
 		}
 	</style>
 
+	<style>
+		.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+	</style>
+
 	<body style="background: #f2f2f2;">
 
 		<h1>HOTEL DECENT</h1>
@@ -240,50 +264,32 @@
 			<li style="float: right;"><a href="#contact">Contact Details</a></li>
 		</ul>
 
-		<div class="slideshow-container">
-
-		<div class="mySlides fade">
-		  <img id="1" src="Images/1.jpg" style="width:100%">
-		</div>
-
-		<div class="mySlides fade">
-		  <img id="2" src="Images/2.jpg" style="width:100%">
-		</div>
-
-		<div class="mySlides fade">
-		  <img id="3" src="Images/3.jpg" style="width:100%">
-		</div>
-
+		<div class="swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="assets/images/slide_1.png" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="assets/images/slide_2.png" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="assets/images/slide_3.png" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="assets/images/slide_4.png" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="assets/images/slide_5.png" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="assets/images/slide_6.png" alt="">
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
 		</div>
 		<br>
 
-		<div style="text-align:center">
-		  <span class="dot"></span>
-		  <span class="dot"></span>
-		  <span class="dot"></span>
-		</div>
-
-		<script>
-		var slideIndex = 0;
-		showSlides();
-
-		function showSlides() {
-		  var i;
-		  var slides = document.getElementsByClassName("mySlides");
-		  var dots = document.getElementsByClassName("dot");
-		  for (i = 0; i < slides.length; i++) {
-		    slides[i].style.display = "none";
-		  }
-		  slideIndex++;
-		  if (slideIndex > slides.length) {slideIndex = 1}
-		  for (i = 0; i < dots.length; i++) {
-		    dots[i].className = dots[i].className.replace(" active", "");
-		  }
-		  slides[slideIndex-1].style.display = "block";
-		  dots[slideIndex-1].className += " active";
-		  setTimeout(showSlides, 4500); // Change image every 4.5 seconds
-		}
-		</script>
+		
 		<br><br>
 		<a class="reserve_room" href="user_login.php">RESERVE A ROOM</a><br>
 
@@ -294,13 +300,13 @@
 		<div id="rooms_and_rates" class="basic_box">
 			<div class="row">
   				<div class="column">
-    				<img src="images/1.jpg" alt="Snow" style="width:100%">
+    				<img src="rooms/1.jpg" alt="Snow" style="width:100%">
   				</div>
   				<div class="column">
-    				<img src="images/2.jpg" alt="Forest" style="width:100%">
+    				<img src="rooms/2.png" alt="Forest" style="width:100%">
   				</div>
   				<div class="column">
-    				<img src="images/3.jpg" alt="Mountains" style="width:100%">
+    				<img src="rooms/3.png" alt="Mountains" style="width:100%">
   				</div>
 			</div>
 			<div class="row">
@@ -308,18 +314,31 @@
     				<h3>Deluxe Room</h3>
   				</div>
   				<div class="column">
-    				<h3>Executive Room</h3>
-  				</div>
+					  <h3>Executive Room</h3>
+					</div>
   				<div class="column">
-    				<h3>Standard Room</h3>
-  				</div>
+					  <h3>Standard Room</h3>
+					</div>
 			</div>
 		</div><br>
 		<div id="contact" class="footer">
 			<hr>
 			<h2 class="foot-text">Contact Us!</h2>
-			<h3 class="foot-text">Email us at aska18cs@gmail.com</h3><br>
-			<h3 class="foot-text">or adsu18cs@gmail.com</h3><br>
+			<h3 class="foot-text">Email us at xxxxx@gmail.com</h3><br>
+			<h3 class="foot-text">or xxxxxx@gmail.com</h3><br>
 		</div>
-	</body>
+		<script src="vendors/js/swiper-bundle.min.js"></script>
+		<script>
+		var swiper = new Swiper(".swiper", {
+			autoplay: {
+				delay: 2500,
+				disableOnInteraction: false,
+			},
+			pagination: {
+				el: ".swiper-pagination",
+				dynamicBullets: true,
+			},
+		});
+		</script>
+</body>
 </html>
