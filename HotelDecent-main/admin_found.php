@@ -28,7 +28,7 @@
 <body>
 	<div style="background-color: #f2f2f2;">
 		<?php
-			$conn = new mysqli("localhost","root","", "hotelman");
+			include("db.php");
 			if($conn->connect_error)
 			{
 				die("Connection failed: ".$conn->connect_error);

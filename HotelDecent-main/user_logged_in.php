@@ -1,6 +1,6 @@
 <html>
 <body><?php
-	$conn = new mysqli("localhost","root","AA@@153214", "hotelman");
+	include("db.php");
 	if($conn->connect_error)
 	{
 		die("Connection failed: ".$conn->connect_error);
