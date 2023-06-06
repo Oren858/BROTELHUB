@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>New User SignUp</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+
 </head>
 <style>
 	div {

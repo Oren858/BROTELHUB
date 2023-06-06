@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>User Signed In</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+
 </head>
 <style>
 	body {
@@ -82,7 +84,7 @@
 		$row=mysqli_fetch_row($result); ?>
 	<table style="width: 100%;">
 		<tr>
-			<td id="td1" style="padding: 10px; font-size: 48px; position: sticky; z-index: 1">HOTEL DECENT</td>
+			<td id="td1" style="padding: 10px; font-size: 48px; position: sticky; z-index: 1">BRO-TELHUB</td>
 			<td id="td1" style="font-size: 25px; text-align: right;">Hello, <?php echo $row[2]; ?></td>
 		</tr>
 	</table>

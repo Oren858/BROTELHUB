@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Admin Found</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+
 </head>
 <style>
 	div {

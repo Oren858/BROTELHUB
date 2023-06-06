@@ -1,7 +1,11 @@
 <!DOCTYPE>
 <html>
 	<head>
-		<title>Image Gallery</title>
+		<title>KING ROOMS
+		
+		</title>
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+
 	</head>
 	<style type="text/css">
 		body {
@@ -116,17 +120,21 @@
 		}
 	</style>
 	<body>
-		<h1>HOTEL DECENT</h1>
+		<h1>BRO-TELHUB</h1>
 		<ul>
 			<li><a href="index.php">HOME</a>
 			<li><a href="admin_login.php">ADMIN LOGIN</a></li>
 			<li><a href="user_login.php">USER LOGIN</a></li>
-			<li><a href="#rooms_and_rates">ROOM GALLERY</a></li>
-			<li><a href="image_gallery.php">IMAGE GALLERY</a>
+			<li><a href="#rooms_and_rates">PROSTANDARS</a></li>
+			<li><a href="image_gallery.php">KING ROOMS</a>
+			<li><a href="image_gg.php">Notre Massage Professionel</a>
+
 			<li style="float: right;"><a href="#contact">Contact Details</a></li>
 		</ul>
 		<br>
-		<h2 class="r_room">IMAGE GALLERY</h2><br>
+		<h2 class="r_room">KING ROOMS
+		
+		</h2><br>
 		<div class="row">
   			<div class="column">
     			<img src="rooms/4.png" alt="Snow" style="width:100%">
@@ -160,7 +168,7 @@
     			<img src="rooms/7.png" alt="Mountains" style="width:100%">
   			</div>
 		</div><br><br><br>
-		<h2 id="rooms_and_rates" class="r_room">OUR ROOMS</h2>
+		<h2 id="rooms_and_rates" class="r_room">PROSTANDARS</h2>
 		<div class="basic_box">
 			<div class="row">
   				<div class="column">

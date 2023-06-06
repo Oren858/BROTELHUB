@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Admin Remove Rooms</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+
 </head>
 <style>
 	body {
@@ -70,7 +72,7 @@
 <body>
 	<table style="width: 100%;">
 		<tr>
-			<td id="td1" style="padding: 10px; font-size: 48px;">HOTEL DECENT</td>
+			<td id="td1" style="padding: 10px; font-size: 48px;">BRO-TELHUB</td>
 		</tr>
 	</table>
 	<ul>

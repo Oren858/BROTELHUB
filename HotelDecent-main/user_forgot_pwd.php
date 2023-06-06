@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>User Forgot Password</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+
 </head>
 <style>
 	div {

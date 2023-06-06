@@ -2,8 +2,10 @@
 <html>
 	<head>
 		<title>
-			HOTEL DECENT
+			BRO-TELHUB
 		</title>
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+
 		<link rel="stylesheet" href="vendors/css/swiper-bundle.min.css">
 	</head>
 	<style>
@@ -253,14 +255,16 @@
 
 	<body style="background: #f2f2f2;">
 
-		<h1>HOTEL DECENT</h1>
+		<h1>BRO-TELHUB</h1>
 
 		<ul>
 			<li><a href="index.php">HOME</a>
 			<li><a href="admin_login.php">ADMIN LOGIN</a></li>
 			<li><a href="user_login.php">USER LOGIN</a></li>
-			<li><a href="#rooms_and_rates">ROOM GALLERY</a></li>
-			<li><a href="image_gallery.php">IMAGE GALLERY</a>
+			<li><a href="#rooms_and_rates">PROSTANDARS</a></li>
+			<li><a href="image_gallery.php">KING ROOMS</a>
+			<li><a href="image_gg.php">Notre Massage Professionel</a>
+
 			<li style="float: right;"><a href="#contact">Contact Details</a></li>
 		</ul>
 
@@ -292,11 +296,13 @@
 		
 		<br><br>
 		<a class="reserve_room" href="user_login.php">RESERVE A ROOM</a><br>
+		<a class="reserve_room" href="user_login.php">RESERVE A PROMASSAGE</a><br>
+
 
 		<h2 class="welcome1">Experience a good stay</h2><br>
 		<h2 class="welcome2">Warm welcome to our hotel</h2><br>
 
-		<h2 class="r_room">OUR ROOMS</h2><br>
+		<h2 class="r_room">PROSTANDARS</h2><br>		
 		<div id="rooms_and_rates" class="basic_box">
 			<div class="row">
   				<div class="column">

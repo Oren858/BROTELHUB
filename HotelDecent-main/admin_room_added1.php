@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Admin Room Added</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+
 </head>
 <style>
 	body {
